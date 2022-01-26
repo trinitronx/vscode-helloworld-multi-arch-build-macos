@@ -17,7 +17,8 @@
             "externalConsole": false,
             "osx": {
                 "preLaunchTask": "build (x86_64)",
-                "MIMode": "lldb"
+                "MIMode": "lldb",
+                // "miDebuggerArgs": ""
             }
             // "setupCommands": [
             //     {

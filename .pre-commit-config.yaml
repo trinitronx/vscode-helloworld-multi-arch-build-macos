@@ -27,3 +27,13 @@ repos:
     hooks:
     -   id: shell-lint
         args: ["--exclude=SC1090,SC1091,SC2034,SC2039,SC2140,SC2148,SC2153,SC2154,SC2164"]
+- repo: https://github.com/pocc/pre-commit-hooks
+  rev: v1.3.5
+  hooks:
+    - id: clang-format
+      args: [--style=Google]
+    - id: oclint
+    - id: uncrustify
+    - id: cppcheck
+    - id: cpplint
+    - id: include-what-you-use

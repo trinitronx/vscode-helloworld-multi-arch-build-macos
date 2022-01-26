@@ -30,12 +30,16 @@ Please see the [macOS Developer Documentation][3] for Apple's recommended method
 
 ## Related Issues
 
-- microsoft/vscode-cpptools#6779
-- microsoft/vscode-cpptools#2376
-- microsoft/vscode-cpptools#7035
-- microsoft/vscode-cpptools#5079
-- microsoft/vscode-cpptools#2438
+- [microsoft/vscode-cpptools#7035][1]
+- [microsoft/vscode-cpptools#6779][4]
+- [microsoft/vscode-cpptools#2376][5]
+- [microsoft/vscode-cpptools#5079][6]
+- [microsoft/vscode-cpptools#2438][7]
 
 [1]: https://github.com/microsoft/vscode-cpptools/issues/7035
 [2]: https://github.com/microsoft/vscode-cpptools
 [3]: https://developer.apple.com/documentation/apple-silicon/building-a-universal-macos-binary
+[4]: https://github.com/microsoft/vscode-cpptools/issues/6779
+[5]: https://github.com/microsoft/vscode-cpptools/issues/2376
+[6]: https://github.com/microsoft/vscode-cpptools/issues/5079
+[7]: https://github.com/microsoft/vscode-cpptools/issues/2438

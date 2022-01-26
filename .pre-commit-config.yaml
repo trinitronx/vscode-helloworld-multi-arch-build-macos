@@ -34,6 +34,7 @@ repos:
     - id: clang-format
       args: [--style=Google]
     - id: oclint
+      args: [-p=build]
     - id: uncrustify
     - id: cppcheck
     - id: cpplint

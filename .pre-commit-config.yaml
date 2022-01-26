@@ -1,5 +1,6 @@
 exclude: |
     (?x)^(
+        build/.*|
         tmp/.*|
         helloworld|
         helloworld*.dSYM|

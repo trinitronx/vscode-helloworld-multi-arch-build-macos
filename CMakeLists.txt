@@ -3,6 +3,8 @@ project(helloworld VERSION 0.1.0)
 
 include(CTest)
 enable_testing()
+set(CTEST_CONFIGURATION_TYPE Debug)
+message("Generated with config types: ${CMAKE_CONFIGURATION_TYPES}")
 
 include(${helloworld_SOURCE_DIR}/test/CTestTestfile.cmake)
 

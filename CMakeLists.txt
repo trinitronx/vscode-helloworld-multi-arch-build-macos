@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION 3.0.0)
+set(CMAKE_OSX_ARCHITECTURES x86_64;arm64)
+set(CMAKE_CONFIGURATION_TYPES Debug;Release)
 project(helloworld VERSION 0.1.0)
 
+set(CTEST_CONFIGURATION_TYPE Debug)
+set(CTEST_BINARY_DIRECTORY build)
 include(CTest)
 enable_testing()
-set(CTEST_CONFIGURATION_TYPE Debug)
 message("Generated with config types: ${CMAKE_CONFIGURATION_TYPES}")
 
 include(${helloworld_SOURCE_DIR}/test/CTestTestfile.cmake)
